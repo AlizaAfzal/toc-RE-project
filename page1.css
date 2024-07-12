@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add this to ensure padding and border are included in element's total width and height */
+}
+
+.navigation {
+    margin-top: 25px;
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-around;
+    font-size: 25px;
+    z-index: 1;
+    color: #000;
+    position: relative;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    mix-blend-mode: multiply;
+}
+
+.nav-left span {
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin: 10px;
+}
+
+.nav-right ul li a:hover {
+    text-decoration: underline;
+    color: #a25772;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.content2 {
+    background-color: #eef5ff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    width: 100%; /* Ensure content fits within the container */
+    height: auto; /* Allow content to determine the height */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.patient-details {
+    padding: 50px;
+}
+
+.patient-details .header h1 {
+    font-size: 40px;
+    color: #a25772;
+}
+
+.patient-details .header h2 {
+    font-size: 30px;
+}
+
+.patient-details .header p {
+    font-size: 20px;
+}
+
+.form {
+    margin-top: 30px;
+}
+.form input{
+    width:100%;
+    height:30px;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+
+.form p {
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.form .symptoms {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.form select {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.form a button {
+    width: 100%;
+    height: 40px;
+    margin-top: 7px;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: #fff; 
+    cursor: pointer;
+}
+
+.form a button:hover {
+    background-color: #3d5a80;
+    color: #fff; /* Change text color on hover for better contrast */
+}
+
+.disclaimer {
+    height: 25vh;
+    max-width: 80vw;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    background-color: #9eb8d9;
+}
+
+.disclaimer h3 {
+    font-size: 20px;
+}
+
+.disclaimer p {
+    font-size: 15px;
+}
+
+.steps {
+    height: 30vh;
+    max-width: 80vw;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+
+.steps ul li {
+    margin-bottom: 10px;
+}
+
+.steps h3 {
+    color: #1167b1;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #7c93c3;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer ul li {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+}

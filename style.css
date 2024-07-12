@@ -1,0 +1,93 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    background-image: url("../img/homeimg.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.2);
+}
+.navigation{
+    margin-top: 25px;
+    display:flex;
+    max-width:80vw;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-around;
+    font-size: 25px;
+    z-index:1;
+    color:#000;
+    position: relative;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    mix-blend-mode: multiply;
+ }
+.nav-left span{
+    font-weight: bold;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-right ul{
+    display:flex;
+    list-style: none;
+    
+}
+.nav-right ul li a{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    margin:10px;
+}
+.nav-right ul li a:hover{
+    text-decoration: underline;
+}
+.main{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 200px;
+    height:395px;
+    z-index:1;
+    color:#000;
+    position: relative;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.content p{
+    font-size: 20px;
+}
+.main a button{
+    padding: 4px 15px;
+    border-radius: 6px;
+    background-color: #0077B6;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.main a button:hover{
+    background-color: #358fc0;
+}
+
+

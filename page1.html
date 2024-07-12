@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/page1.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="nav-left">
+            <span>MedicUnit</span>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html">Health Research</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container2">
+        <div class="content2">
+            <div class="patient-details">
+                <div class="header">
+                    <h1>MedicUnit</h1>
+                    <h2>Symptom checker</h2>
+                    <p>Enter more symptoms for more accurate results, starting with your most severe one.</p>
+                </div>
+                <div class="form">
+                    <u>
+                        <h2>Patient Details</h2>
+                    </u>
+                    <form id="symptomForm" class="form">
+                        <label for="symptoms">Symptoms:</label>
+                        <input type="text" id="symptoms" name="symptoms" required>
+                        <div id="symptomError" class="error-message"></div>
+                
+                        <label for="gender">Gender:</label>
+                        <input type="text" id="gender" name="gender" required>
+                        <div id="genderError" class="error-message"></div>
+                
+                        <label for="age">Age:</label>
+                        <input type="text" id="age" name="age" required>
+                        <div id="ageError" class="error-message"></div>
+                
+                        <a href="page2.html"><button type="submit">Submit</button></a>
+                    </form>
+                    <div id="suggestion" class="suggestion"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="disclaimer">
+        <h3>Disclaimer</h3>
+        <p>
+            This symptom checker is provided by Isabel Healthcare Limited. Isabel Symptom Checker ("Isabel") and
+            any content accessed through Isabel is for informational purposes only, and is not intended to constitute
+            professional medical advice, diagnosis or treatment. EMIS shall be in no way responsible for your use of
+            Isabel, or any information that you obtain from Isabel. You acknowledge that when using Isabel you do so at
+            your
+            own choice
+            and in agreement with this disclaimer. Do not ignore or delay obtaining professional medical advice because
+            of
+            information
+            accessed through Isabel. Seek immediate medical assistance or call your doctor for all medical
+            emergencies. By using Isabel you agree to the terms and conditions.
+        </p>
+    </div>
+    <div class="steps">
+        <h3>How to get started</h3>
+        <ul>
+            <li>Begin by entering symptoms that best describe your current condition.</li>
+            <li>Symptoms can be entered in your own words or chosen from the list of matching suggestions; select the most appropriate.</li>
+            <li>If no suggestions appear, double-check your spelling or use different words to describe your symptoms.</li>
+            <li>Submitting a symptom leads to a page that displays a list of potential diagnoses, which can be accessed by tapping or clicking on them to get information.</li>
+        </ul>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>About Us</li>
+            <li>Advertise with us</li>
+            <li>Contact Us</li>
+        </ul>
+        <ul>
+            <li>legal</li>
+            <li>cookie policy</li>
+            <li>privacy policy</li>
+            <li>terms of use</li>
+        </ul>
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
